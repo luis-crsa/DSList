@@ -1,13 +1,10 @@
 # DSList
-
 DSList é uma aplicação backend sobre listagem de jogos e suas principais informações.
 
-## Exemplo
-![Exemplo](https://github.com/user-attachments/assets/4e43ae15-1d54-42de-b1da-c791f8f343d2)
+![image](https://github.com/user-attachments/assets/f92ebb4c-d521-483e-9104-72c795294395)
 
-## Modelo conceitual
+# Modelo conceitual
 ![Modelo conceitual](https://github.com/user-attachments/assets/7c856ebc-ac26-43c4-b3d9-8f5dce2ffb9f)
-
 
 # Tecnologias utilizadas
 - Java
