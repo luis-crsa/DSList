@@ -1,41 +1,42 @@
-package com.project.dslist.entities;
+package com.luiscrsarmento.gamelist.entities;
 
-import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tb_belonging")
-public class Belonging {
+@Table(name = "tb_game_list")
+public class GameList {
 
-    @EmbeddedId
-    private BelongingPK id = new BelongingPK();
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String name;
 
-    private Integer position;
-
-    public Belonging() {
+    public GameList() {
     }
 
-    public Belonging(Game game, GameList list, Integer position) {
-        id.setGame(game);
-        id.setList(list);
-        this.position = position;
+    public GameList(Long id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
-    public BelongingPK getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(BelongingPK id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public Integer getPosition() {
-        return position;
+    public String getName() {
+        return name;
     }
 
-    public void setPosition(Integer position) {
-        this.position = position;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
@@ -54,7 +55,7 @@ public class Belonging {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Belonging other = (Belonging) obj;
+        GameList other = (GameList) obj;
         if (id == null) {
             if (other.id != null)
                 return false;

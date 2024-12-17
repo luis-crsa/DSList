@@ -1,6 +1,6 @@
-package com.project.dslist.dto;
+package com.luiscrsarmento.gamelist.dto;
 
-import com.project.dslist.entities.GameList;
+import com.luiscrsarmento.gamelist.entities.GameList;
 
 public class GameListDTO {
 

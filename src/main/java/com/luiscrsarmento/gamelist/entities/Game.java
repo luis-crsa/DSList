@@ -1,4 +1,4 @@
-package com.project.dslist.entities;
+package com.luiscrsarmento.gamelist.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

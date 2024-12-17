@@ -1,4 +1,4 @@
-package com.project.dslist.dto;
+package com.luiscrsarmento.gamelist.dto;
 
 public class ReplacementDTO {
 

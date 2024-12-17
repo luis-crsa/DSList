@@ -1,4 +1,4 @@
-package com.project.dslist.projections;
+package com.luiscrsarmento.gamelist.projections;
 
 public interface GameMinProjection {
 

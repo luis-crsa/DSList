@@ -1,4 +1,4 @@
-package com.project.dslist.controllers;
+package com.luiscrsarmento.gamelist.controllers;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.project.dslist.dto.GameListDTO;
-import com.project.dslist.dto.GameMinDTO;
-import com.project.dslist.dto.ReplacementDTO;
-import com.project.dslist.services.GameListService;
-import com.project.dslist.services.GameService;
+import com.luiscrsarmento.gamelist.dto.GameListDTO;
+import com.luiscrsarmento.gamelist.dto.GameMinDTO;
+import com.luiscrsarmento.gamelist.dto.ReplacementDTO;
+import com.luiscrsarmento.gamelist.services.GameListService;
+import com.luiscrsarmento.gamelist.services.GameService;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

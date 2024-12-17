@@ -1,10 +1,10 @@
-package com.project.dslist.repositories;
+package com.luiscrsarmento.gamelist.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-import com.project.dslist.entities.GameList;
+import com.luiscrsarmento.gamelist.entities.GameList;
 
 public interface GameListRepository extends JpaRepository<GameList, Long>{
     @Modifying

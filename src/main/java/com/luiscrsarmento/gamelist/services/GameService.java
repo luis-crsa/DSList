@@ -1,4 +1,4 @@
-package com.project.dslist.services;
+package com.luiscrsarmento.gamelist.services;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.project.dslist.dto.GameDTO;
-import com.project.dslist.dto.GameMinDTO;
-import com.project.dslist.entities.Game;
-import com.project.dslist.projections.GameMinProjection;
-import com.project.dslist.repositories.GameRepository;
+import com.luiscrsarmento.gamelist.dto.GameDTO;
+import com.luiscrsarmento.gamelist.dto.GameMinDTO;
+import com.luiscrsarmento.gamelist.entities.Game;
+import com.luiscrsarmento.gamelist.projections.GameMinProjection;
+import com.luiscrsarmento.gamelist.repositories.GameRepository;
 
 @Service
 public class GameService {

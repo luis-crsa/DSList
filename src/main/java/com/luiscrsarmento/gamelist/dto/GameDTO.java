@@ -1,8 +1,8 @@
-package com.project.dslist.dto;
+package com.luiscrsarmento.gamelist.dto;
 
 import org.springframework.beans.BeanUtils;
 
-import com.project.dslist.entities.Game;
+import com.luiscrsarmento.gamelist.entities.Game;
 
 public class GameDTO {
 

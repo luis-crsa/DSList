@@ -1,12 +1,12 @@
-package com.project.dslist.repositories;
+package com.luiscrsarmento.gamelist.repositories;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.project.dslist.entities.Game;
-import com.project.dslist.projections.GameMinProjection;
+import com.luiscrsarmento.gamelist.entities.Game;
+import com.luiscrsarmento.gamelist.projections.GameMinProjection;
 
 public interface GameRepository extends JpaRepository<Game, Long>{
 

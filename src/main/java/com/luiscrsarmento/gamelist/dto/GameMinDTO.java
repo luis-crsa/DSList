@@ -1,7 +1,7 @@
-package com.project.dslist.dto;
+package com.luiscrsarmento.gamelist.dto;
 
-import com.project.dslist.entities.Game;
-import com.project.dslist.projections.GameMinProjection;
+import com.luiscrsarmento.gamelist.entities.Game;
+import com.luiscrsarmento.gamelist.projections.GameMinProjection;
 
 public class GameMinDTO {
 
