@@ -1,5 +1,5 @@
 # 🎮GameList
-Aplicação backend sobre listagens de jogos.
+Aplicação backend sobre listagens de jogos. O projeto foi desenvolvido durante o Intensivão Java Spring da [DevSuperior](https://devsuperior.com.br/).
 
 ![image](https://github.com/user-attachments/assets/2ca2f916-71ba-43f2-b393-2a723e1e8a68)
 
